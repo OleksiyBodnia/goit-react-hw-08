@@ -7,7 +7,7 @@ import { fetchContacts } from "../../redux/contacts/operations";
 import { selectLoading } from "../../redux/contacts/selectors";
 import SearchBox from "../../components/SearchBox/SearchBox";
 
-export default function TasksPage() {
+export default function ContactsPage() {
   const dispatch = useDispatch();
   const isLoading = useSelector(selectLoading);
 
